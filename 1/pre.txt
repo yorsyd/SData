@@ -1,0 +1,34 @@
+1. 
+public: variabel dapat diakses dari luar kelas (bisa dipakai siapa saja)
+private: variabel tidak dapat diakses dari luar kelas (hanya bisa dipakai di dalam kelas)
+protected: variabel tidak dapat diakses namun diluar kelas dapat diakses oleh kelas turunan (hanya bisa dipakai kelas turunan)
+
+2.
+class name_class{
+	public:
+		int number;
+	private:
+		string text;
+	protected:
+		bool bin;
+}
+
+3.
+Subprogram rekursi adalah subprogram yang memanggil dirinya sendiri selama kondisinya terpenuhi
+
+4.
+fungsi rekursi:
+int faktorial(int n){
+	if (n==0){
+		return 1;
+	}
+	return (n * faktorial(n-1));
+}
+prosedur rekursi:
+void faktorial1(int n){
+	int hasil = 1;
+	for (int i = 1; i <= n; i++){
+		hasil = hasil*i;
+	}
+	cout << hasil;
+}

@@ -1,0 +1,6 @@
+1. Array adalah kumpulan data dengan tipe yang sama yang tersusun secara linear dan berdekatan dalam memori. Array memiliki indeks yang menyatakan elemen yang disimpan dan panjang yang menyatakan total elemen yang tersimpan.
+
+2. 
+ |  |  |  |  |  |   -> 7 |  |  |  |  |  | -> 4 | 7 |  |  |  |  | -> 6 | 4 | 7 |  |  |  | -> 3 | 6 | 4 | 7 |  |  | -> 2 | 3 | 6 | 4 | 7 |  |  -> 1 | 2 | 3 | 6 | 4 | 7 | -> 5 | 1 | 2 | 3 | 6 | 4 | 7 
+
+3. 5 | 1 | 2 | 3 | 6 | 4 | 7 ->  0 | 1 | 2 | 3 | 6 | 4 | 7 ->  1 | 2 | 3 | 6 | 4 | 7 | 0 ->  0 | 2 | 3 | 6 | 4 | 7 | 0 | 0 ->  2 | 3 | 6 | 4 | 7 | 0 | 0 ->  0 | 3 | 6 | 4 | 7 | 0 | 0 ->  3 | 6 | 4 | 7 | 0 | 0 | 0

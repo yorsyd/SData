@@ -1,0 +1,16 @@
+1. FIFO (First In First Out) adalah sebuah prinsip dimana data yang masuk pertama kali maka akan menjadi data yang keluar pertama kali juga. Contoh penerapan di dunia nyata adalah antrian. Dalam antrian orang yang pertama kali mengantri maka akan menjadi orang yang pertama dilayani.
+
+2. 
+Enqueue: Menambahkan elemen ke akhir antrian
+Dequeue: Menghapus elemen dari depan antrian
+IsEmpty: Memeriksa apakah antrian kosong
+IsFull: Memeriksa apakah antrian sudah penuh
+Peek: Mendapatkan nilai bagian depan antrian tanpa menghapusnya
+Front: Mendapatkan data pertama pada queue
+Rear: Mendapatkan data terakhir pada queue
+
+3. 
+
+
+4.
+Queue circular menggunakan prinsip FIFO (First In First Out), sedangkan stack menggunakan LIFO (Last In, First Out). Pada queue circular, data ditambahkan di ujung belakang queue dan dihapus di ujung depan queue. Sedangkan stack, data ditambahkan dan dihapus pada data paling atas. Pada queue circular, ujung belakang antrian terhubung kembali ke ujung depan antrian, sehingga antrian dapat terus bertambah tanpa batas. Pada stack, ujung atas tumpukan tidak terhubung kembali ke ujung bawah tumpukan, sehingga tumpukan dapat mencapai kapasitas maksimum.
