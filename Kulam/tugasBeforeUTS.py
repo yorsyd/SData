@@ -1,9 +1,15 @@
 def addDataArray(arr, newData):
-    index = 0
-    while(arr[index] is not None):
-        index = index + 1
-    arr[index] = newData
-    return arr
+    # Membuat array baru dengan ukuran yang lebih besar
+    newArr = [None] * (len(arr) + 1)
+
+    # Menyalin data dari array lama ke array baru
+    for i in range(len(arr)):
+        newArr[i] = arr[i]
+
+    # Menambahkan data baru ke akhir array
+    newArr[-1] = newData
+
+    return newArr
     
 def delDataArr(arr, arrSize, position):
     for i in range(position, arrSize-1, 1):
@@ -15,7 +21,7 @@ def delDataArr(arr, arrSize, position):
     return tempArr
 
 arr = [1,2,3,4,5]
-# addDataArray(arr,5)
+arr = addDataArray(arr,5)
 # print(arr)
 # addDataArray(arr,2)
 delDataArr(arr, 5, 2)
